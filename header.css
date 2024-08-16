@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .photo {
+    margin-top: 20px;
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.informations{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.informations .p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+
+.informations .profil::before{
+    background-image: url(./perfil.svg);
+}
+
+.informations .local::before{
+    background-image: url(local.svg);
+}
+
+.informations .contact::before{
+    background-image: url(contact.svg);
+}
+
+.informations .email::before{
+    background-image: url(email.svg);
+}
+
+@media only screen and(min-width: 768px) {
+    .header{
+        flex-direction: row;
+    }
+    .header .photo{
+        grid-area: photo;
+    }
+}

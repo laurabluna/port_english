@@ -1,0 +1,33 @@
+.exp{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.exp li .period{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.exp li .period::before{
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(data.svg);
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    
+}
+
+.exp li{
+    margin-bottom: 1rem;
+    
+}

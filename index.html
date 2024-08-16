@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfólio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./acordeon.css" />
+    <link rel="stylesheet" href="./languages.css" />
+    <link rel="stylesheet" href="./portif.css" />
+    <link rel="stylesheet" href="./exp.css" />
+    <link rel="stylesheet" href="./skills.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <img src="minhafoto.jpeg" alt="laura´s photo" class="photo"
+                style="width:50%; height:auto; border-radius:50%; margin-top: 20%;">
+
+            <h1 class="title">Hi, im Laura!</h1>
+
+            <div class="informations">
+                <p class="profile">Student at IFRN</p>
+                <p class="local">Natal/RN</p>
+                <p class="contact">My phone number is +55(84)999315420</p>
+                <p class="email">My email is laurablunam@gmail.com</p>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="oi">
+                <h2>Languages</h2>
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Portuguese</li>
+                    <li>English</li>
+                    <li>French</li>
+                </ul>
+            </div>
+
+        </section>
+
+
+
+        <section class="acordeon open">
+            <button class="oi">
+                <h2>Portifolio</h2>
+            </button>
+            <div class="content">
+                <ul class="portif">
+                    <li>
+                        <span class="title github">Beep Menu</span>
+                    </li>
+                    <li>
+                        <span class="title github">Space Invaders</span>
+                    </li>
+                    <li>
+                        <span class="title github">IFfood</span>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+
+
+        <section class="acordeon open">
+            <button class="oi">
+                <h2>Experiences</h2>
+            </button>
+            <div class="content">
+                <ul class="exp">
+                    <li>
+                        <h3 class="title">Finalist in a women's programming competition</h3>
+                        <p class="period">Jun 2024</p>
+                        <p>First place at IFRN and 92nd place out of 1000 international participants. The competition
+                            took place at Unicamp - SP</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Working on research for the development of a technique for heuristic usability
+                            evaluation - EURECA TECHNIQUE.</h3>
+                        <p class="period">Jul 2024 - current</p>
+                        <p>This project proposes the systematization of a technique for heuristic evaluation of
+                            graphical interfaces using the Eureca List tool, a list of usability guidelines.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="acordeon open">
+            <button class="oi">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                <section class="tools">
+                    <h3>Professional skills</h3>
+                    <ul>
+                        <li>
+                            <img src="html.png" alt="html" title="html">
+                        </li>
+                        <li>
+                            <img src="javascript.png" alt="javascript" title="javascript">
+                        </li>
+                        <li>
+                            <img src="java.png" alt="java" title="java">
+                        </li>
+                        <li>
+                            <img src="css.png" alt="css" title="css">
+                        </li>
+                        <li>
+                            <img src="git.png" alt="git" title="git">
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="personal">
+                    <h3>Personal skills</h3>
+                    <ul>
+                        <li>Proactivity</li>
+                        <li>Creativity</li>
+                        <li>Organized</li>
+                        <li>Resilient</li>
+                        <li>Leadership</li>
+                    </ul>
+                </section>
+            </div>
+            </div>
+        </section>
+    </div>
+    <script src="./acordeon.js"></script>
+</body>
+
+</html>
